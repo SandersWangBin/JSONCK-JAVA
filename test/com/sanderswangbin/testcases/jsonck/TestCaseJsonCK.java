@@ -1,7 +1,6 @@
 package com.sanderswangbin.testcases.jsonck;
 
 import com.sanderswangbin.jsonck.JsonCK;
-import com.sanderswangbin.pull.PullObj;
 import com.sanderswangbin.testcases.base.TestCaseBase;
 
 public class TestCaseJsonCK extends TestCaseBase {
