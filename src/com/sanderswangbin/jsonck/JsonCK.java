@@ -49,8 +49,8 @@ public class JsonCK {
 			result += jExp.pullExp() + SYMBOL_NEWLINE;
 		}
 		result += genPullExpRef() + ": ";
-		for (Integer i = 0; i < JSONCK_EXP_IND; i++) {
-			result += String.format(FORMAT_JSONCK_EXP_NAME, i.toString()) + " + ";
+		for (JsonCKExp jExp : jsonCKExpList) {
+			result += jExp.name() + " + ";
 		}
 		if (result.substring(result.length()-3, result.length()).contains(" + ")) {
 			result = result.substring(0, result.length()-3);
